@@ -14,6 +14,9 @@ Season 4/
 Season 5/
 Season 6/
 
+# Idea Files
+.idea/
+
 # Distribution / packaging
 .Python
 build/
