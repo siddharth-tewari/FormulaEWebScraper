@@ -6,7 +6,7 @@ Usage:
 
 Try: fescraper.py
      fescraper.py 2019/2020
-     fescraper.py 2017/2018 2018/2019 2019/2020
+     fescraper.py 2017/2018 2018/2019 2019/2020 2020/2021 2021/2022
 
 Options:
   -h --help            show this help message and exit
@@ -32,6 +32,10 @@ def discoverSeason(year):
         return str(5)
     elif year == "2019/2020":
         return str(6)
+    elif year == "2020/2021":
+        return str(7)
+    elif year == "2021/2022":
+        
     else:
         return str(0)
 
@@ -73,7 +77,7 @@ if __name__ == '__main__':
     r = 1
 
     if len(args) == 0:
-        years = ["2014/2015", "2015/2016", "2016/2017", "2017/2018", "2018/2019", "2019/2020"]
+        years = ["2014/2015", "2015/2016", "2016/2017", "2017/2018", "2018/2019", "2019/2020", "2020/2021", "2021/2022"]
         r = start(years)
     elif len(args) > 0:
         years = args
